@@ -1,0 +1,197 @@
+:root{
+    --danger-color:#e50914;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: black!important;
+}
+
+.showcase {
+    width: 100%;
+    height: 105vh;
+    position: relative;
+    background: url('https://i.ibb.co/vXqDmnh/backgroundlogo.jpg') no-repeat center center/cover;
+}
+.showcase::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background: rgba(0, 0, 0, 0.6);
+	box-shadow: inset 30px 100px 250px #000000, inset -120px -100px 250px #000000;
+}
+
+.netflixLogo {
+    width: 120px;
+}
+
+.signUp{
+    display: flex!important;
+    justify-content: center!important;
+    align-items:center!important;
+    height: 85vh;
+}
+.signIn {
+    background-color:var(--danger-color)!important;
+    color:#fff!important;
+    border:none!important;
+}
+.startButton{
+    background-color:var(--danger-color)!important;
+    border:none!important;
+    color:#fff!important;
+}
+.startButton:hover{
+    opacity: 0.9!important;
+}
+.signUp p:first-child{
+    font-size: 50px;
+}
+.page-border{
+    height: 1vh;
+    background-color: #222222;
+}
+.about{
+    background-color: black;
+}
+/* .about-section{
+    height: 75vh;
+} */
+.about-section-text{
+    font-size:3rem;
+}
+.about-section-img{
+    width:450px;
+}
+/*Flex Column*/
+
+.flex-column{
+    flex-direction: column!important;
+}
+
+/*z-index*/
+
+.z-index{
+    z-index:2!important;
+}
+.w-75{
+    z-index:1!important;
+}
+
+/* video */
+.video video {
+    width: 465px;
+    height: 263px;
+    margin-top: -10px;
+    margin-left: -571px;
+}
+
+.video2 video{
+    width: 383px;
+    height: 205px;
+    margin-top: -180px;
+    margin-left: -526px;
+
+}
+
+/* Sorular */
+.accordion-item {
+    background-color: #333;
+    width: 60%;
+    margin: auto;
+}
+
+
+.deneme_1 button {
+    width: 60%;
+    background-color: #333;
+    border: none;
+    color: white;
+    text-align: start;
+    font-size: 25px;
+    padding:  15px;
+    outline: none;
+}
+
+.carpi{
+    float: right;
+}
+
+.panel {
+    width: 60%;
+    margin: auto;
+    text-align: start;
+    overflow: hidden;
+    max-height: 0;
+    transition: 0.2s ease-out;
+    background-color:#333;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 0 10px;
+    color: white;
+}
+.son {
+    height: 115vh;
+}
+.bitis-buton{
+    width: 55% !important;
+}
+.sorular h2 {
+    font-size: 40px !important;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    width: 60%;
+    margin-top: 100px;
+    color: rgb(122, 122, 122);
+}
+.footer h5 {
+    font-size: 15px;
+    margin-left: 45px;
+}
+.footer ul {
+    float: left;
+    font-size: 12px;
+    justify-content: left;
+}
+.footer .ul {
+    float: left;
+    margin-left: 30px;
+    font-size: 12px;
+}
+.footer ul li {
+    margin: 15px;
+    list-style-type: none;
+    
+}
+.footer small {
+    margin-left: 42px;
+}
+
+.input-group button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+}
+
+.btn button {
+    width: 60%;
+    background-color: #333;
+    border: none;
+    color: white;
+    text-align: start;
+    font-size: 25px;
+    padding:  15px;
+    outline: none;
+}
